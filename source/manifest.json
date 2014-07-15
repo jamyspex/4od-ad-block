@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "4oD Ad Block",
-    "version": "2.1",
+    "version": "3.0",
     "description": "Remove advertisements from 4oD streaming",
     "icons": {
         "16": "images/16.png",
@@ -9,10 +9,6 @@
         "128": "images/128.png"
     },
     "background": { "scripts": ["background.js"] },
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "storage"],
-    "page_action": {
-        "default_icon": {
-            "19": "images/pageActionDefault.png"
-        }
-    }
+    "permissions": ["webRequest", "webRequestBlocking", "*://*.channel4.com/*"],
+    "page_action": {}
 }
