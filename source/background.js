@@ -1,5 +1,5 @@
 // Expected 4oD Player version
-var playerFileName = "4odplayer-11.80.swf";
+var playerFileName = "4odplayer-bips.swf";
 
 // Show appropriate page action in the omnibar
 function updateStatus (tabId, isSuccess) {
